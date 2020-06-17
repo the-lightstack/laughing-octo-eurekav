@@ -73,15 +73,8 @@ def saveInformation(fileName):
         file.write("----------------------"+"\n"+"\n")
     file.close()
     print("Saved Data")
-#..........................................................................................
-#Testing purposes
-#dataFile=open("dataFile.txt","r")
 
-#dataFileText=dataFile.read()
 
-#dataFile.close()
-
-#print(dataFileText)
 #-------------------- Main Method Call!!!---------------------
 chooseAction()
 input('Press ENTER to exit')
